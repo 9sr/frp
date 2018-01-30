@@ -18,9 +18,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/fatedier/frp/models/config"
-	"github.com/fatedier/frp/utils/log"
-	"github.com/fatedier/frp/utils/metric"
+	"github.com/9sr/frp/models/config"
+	"github.com/9sr/frp/utils/log"
+	"github.com/9sr/frp/utils/metric"
 )
 
 const (
