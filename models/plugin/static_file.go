@@ -20,7 +20,7 @@ import (
 
 	"github.com/julienschmidt/httprouter"
 
-	frpNet "github.com/fatedier/frp/utils/net"
+	frpNet "github.com/9sr/frp/utils/net"
 )
 
 const PluginStaticFile = "static_file"
