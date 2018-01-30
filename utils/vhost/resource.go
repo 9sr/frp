@@ -19,14 +19,14 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/fatedier/frp/utils/version"
+	"github.com/9sr/frp/utils/version"
 )
 
 const (
 	NotFound = `<!DOCTYPE html>
 <html>
 <head>
-<title>Not Found</title>
+<title>访问错误</title>
 <style>
     body {
         width: 35em;
@@ -36,11 +36,9 @@ const (
 </style>
 </head>
 <body>
-<h1>The page you visit not found.</h1>
-<p>Sorry, the page you are looking for is currently unavailable.<br/>
-Please try again later.</p>
-<p>The server is powered by <a href="https://github.com/fatedier/frp">frp</a>.</p>
-<p><em>Faithfully yours, frp.</em></p>
+<h1>访问的页面出错。</h1>
+<p>抱歉, 您访问的页面不存在或暂时不可用，可以稍后重试。</p>
+<p>服务由 "杰思网络®" 提供.</p>
 </body>
 </html>
 `
