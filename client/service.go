@@ -15,8 +15,8 @@
 package client
 
 import (
-	"github.com/fatedier/frp/models/config"
-	"github.com/fatedier/frp/utils/log"
+	"github.com/9sr/frp/models/config"
+	"github.com/9sr/frp/utils/log"
 )
 
 type Service struct {
