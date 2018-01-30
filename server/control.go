@@ -20,14 +20,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/fatedier/frp/models/config"
-	"github.com/fatedier/frp/models/consts"
-	"github.com/fatedier/frp/models/msg"
-	"github.com/fatedier/frp/utils/crypto"
-	"github.com/fatedier/frp/utils/errors"
-	"github.com/fatedier/frp/utils/net"
-	"github.com/fatedier/frp/utils/shutdown"
-	"github.com/fatedier/frp/utils/version"
+	"github.com/9sr/frp/models/config"
+	"github.com/9sr/frp/models/consts"
+	"github.com/9sr/frp/models/msg"
+	"github.com/9sr/frp/utils/crypto"
+	"github.com/9sr/frp/utils/errors"
+	"github.com/9sr/frp/utils/net"
+	"github.com/9sr/frp/utils/shutdown"
+	"github.com/9sr/frp/utils/version"
 )
 
 type Control struct {
